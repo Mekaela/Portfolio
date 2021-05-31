@@ -42,10 +42,24 @@ header {
 }
 
 svg {
-    height: 100px;
+    max-height: 100px;
     padding: 50% 100%;
 }
 
 .projects h1 {
     text-align: right;
+}
+
+.project-text {
+    padding-left: 20%;
+}
+
+img {
+    max-height: 300px;
+    text-align: center;
+    padding-left: 10%;
+}
+
+.each-project {
+    padding-bottom: 8%;
 }
