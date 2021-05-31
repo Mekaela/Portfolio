@@ -3,9 +3,11 @@
     margin: 2% 3%;
 }
 
+header {
+    margin-top: 220px;
+}
 
-
-#hugeH1 {
+.huge-h1 {
     font-size: 700%;
     margin-bottom: 0px;
 }
@@ -14,7 +16,7 @@
 }
 .intro li {
     list-style-type: none;
-    line-height: 70%;
+    line-height: 80%;
 }
 
 .intro ul {
@@ -22,3 +24,28 @@
     margin-top: 0px;
 }
 
+.my-skills {
+    margin: 20% 0% 20% 0%;
+}
+
+.my-skills h1 {
+    text-align: center;
+}
+
+.icons {
+    display: grid;
+    grid: 30% / auto auto auto;
+}
+
+.skill-html, .skill-js, .skill-css {
+    width: 30%
+}
+
+svg {
+    height: 100px;
+    padding: 50% 100%;
+}
+
+.projects h1 {
+    text-align: right;
+}

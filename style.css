@@ -1,13 +1,18 @@
+
+
 #mainMenu > ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    position: ;
 }
 
 #mainMenu {
     width: 50%;
     text-align: right;
-    padding-left: 55%;
+    padding-left: 40%;
+    position: fixed;
+    top: 0;
 }
 
 #mainMenu a {
