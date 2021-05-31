@@ -1,13 +1,13 @@
-div > ul {
+#mainMenu > ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
 }
 
 #mainMenu {
-    width: 30%;
+    width: 50%;
     text-align: right;
-    padding-left: 70%;
+    padding-left: 55%;
 }
 
 #mainMenu a {
@@ -16,3 +16,4 @@ div > ul {
     font-weight: bolder;
     font-size: 130%;
 }
+
