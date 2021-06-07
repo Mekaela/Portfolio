@@ -1,23 +1,29 @@
-
-
-#mainMenu > ul {
-    list-style-type: none;
+.nav {
     display: flex;
     justify-content: space-around;
-}
-
-#mainMenu {
-    width: 50%;
-    text-align: right;
-    padding-left: 50%;
+    width: 30%;
+    padding-left: 70%;
     position: fixed;
     top: 0;
-}
+  }
 
-#mainMenu a {
+  .nav__item {
+    padding: 20px;
+  }
+
+  .nav__item a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
     font-size: 130%;
-}
+  }
 
+  .flex {
+    display: flex;
+  }
+  .flex--between {
+    justify-content: space-between;
+  }
+  .flex--spaced {
+    justify-content: space-around;
+  }

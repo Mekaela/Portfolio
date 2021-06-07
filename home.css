@@ -15,6 +15,11 @@ header {
     font-size: 700%;
     margin-bottom: 0px;
 }
+
+.color-me {
+    color: rgb(86, 28, 139);
+}
+
 .intro {
     margin: 0;
 }
@@ -38,21 +43,24 @@ header {
 
 .icons {
     display: grid;
-    grid: 30% / auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
 }
 
 .skill-html, .skill-js, .skill-css {
-    width: 30%
+    display: grid;
+    align-items: center;
+    height: 200px;
+    width: auto;
 }
 
 svg {
-    max-height: 100px;
-    padding: 50% 100%;
+    max-height: 80px;
 }
 
 #projects h1 {
     text-align: right;
-    padding-bottom: 10%;
+    padding-bottom: 14%;
 }
 
 .project-text {
@@ -68,11 +76,11 @@ img {
 }
 
 .each-project {
-    padding-bottom: 8%;
+    padding-bottom: 18%;
 }
 
 #contact {
-    margin: 15% 0 15% 0;
+    margin: 0 0 15% 0;
 }
 
 footer {
@@ -81,9 +89,29 @@ footer {
 }
 
 footer p {
-    background-color: black;
     color: white;
-    margin: 0;
-    padding: 2% 10%;
 }
 
+footer {
+    background-color: rgba(85, 28, 139, 0.76);
+    padding: 3% 0%;
+    text-align: center;
+}
+
+.fa {
+    padding: 6px;
+    font-size: 30px;
+    width: 20px;
+    text-decoration: none;
+    border-radius: 20%;
+  }
+
+  .fa-linkedin {
+    background-color: white;
+    color: #0077B5;
+  }
+
+  .fa-github {
+    background-color: white;
+    color: black;
+  }

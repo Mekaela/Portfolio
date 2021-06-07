@@ -4,31 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css"><link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
-    <nav id="nav-bar">
-        <div id="mainMenu">
-            <ul>
-            <li><a class="nav-link" href="#projects">projects</a></li>
-            <li><a class="nav-link" href="#contact">contact</a></li>
-            <li>
-                <a class="nav-link" href="">cv</a>
-            </li>
-            </ul>
-        </div>
-      </nav>
+      <nav class="nav flex flex--around">
+        <div class="nav__item"
+        ><a href="#projects">projects</a></div>
+        <div class="nav__item"><a href="#contact">contact</a></div>
+        <div class="nav__item"><a href="">cv</a></div>
+    </nav>
     <header>
-        <h1 class="huge-h1">Hello. <br>I am Mekaela.</h1>
+        <h1 class="huge-h1">Welcome. <br>I am <span class="color-me">Mekaela</span></h1>
         <div class="intro">
             <ul>
                 <li>Full Stack Software Engineer</li>
-                <li>Ex Business Analyst</li>
+                <li>Ex-Business Analyst</li>
                 <li>Melbourne Based</li>
             </ul>
         </div>
     </header>
+
     <main>
         <div id="mySkills">
             <h1 class="huge-h1">Skills:</h1>
@@ -64,13 +62,16 @@
         </div>
         <section id="contact">
             <h1 class="huge-h1">Doing interesting work? 
-            <br>Let's chat.</h1> 
-            <!-- Make chat into an email link -->
+            <br>Let's<a href="mailto:mekaelas@hotmail.com?" class="color-me"> chat.</a></h1> 
             </section>
     </main>
     <footer>
-        <p>2021 Mekaela Stevenson</p>
-        <!--Add copyright symbol-->
+        <a href="https://www.linkedin.com/in/mekaela-stevenson-b215b954/" class="fa fa-linkedin"></a>
+        <a href="https://github.com/Mekaela" class="fa fa-github"></a>
+        <br>
+        <br>
+        <p>&#169;
+            2021 Mekaela Stevenson</p>
     </footer>
 </body>
 </html>
