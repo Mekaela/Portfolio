@@ -2,26 +2,44 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main, header {
-    margin: 3% 15%;
+body {
+    margin: 0;
 }
 
 header {
-    margin-top: 230px;
-    margin-bottom: 20%;
+    height: 97vh;
+    padding-top: 3%;
+    background-color: rgb(2, 135, 139);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
+
+.header-h1 {
+    font-size: 700%;
+    margin: 0px auto 0px auto;
+}
+
 
 .huge-h1 {
     font-size: 700%;
-    margin-bottom: 0px;
+}
+
+.mySkills-h1 {
+    font-size: 700%;
+    
 }
 
 .color-me {
-    color: rgb(86, 28, 139);
+    color: rgb(199, 199, 199);
 }
 
 .intro {
-    margin: 0;
+    width: 300px;
+    padding-left: 35%;
 }
 .intro li {
     list-style-type: none;
@@ -34,7 +52,9 @@ header {
 }
 
 #mySkills {
-    margin: 20% 0% 20% 0%;
+    padding: 1% 0% 0% 0%;
+    background-color:rgba(128, 128, 128, 0.295);
+    height: 100vh;
 }
 
 #mySkills h1 {
@@ -44,18 +64,23 @@ header {
 .icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    flex-wrap: wrap;
 }
 
 .skill-html, .skill-js, .skill-css {
     display: grid;
     align-items: center;
-    height: 200px;
+    height: 150px;
     width: auto;
 }
 
 svg {
     max-height: 80px;
+}
+
+#projects {
+    background-color: rgba(0, 115, 119, 0.733);
+    height: 100%;
+    padding: 1% 5%;
 }
 
 #projects h1 {
@@ -80,7 +105,15 @@ img {
 }
 
 #contact {
-    margin: 0 0 15% 0;
+    padding: 1% 10%;
+    background-color: rgba(128, 128, 128, 0.295);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.color-chat {
+    color: rgba(1, 95, 99);
 }
 
 footer {
@@ -93,7 +126,7 @@ footer p {
 }
 
 footer {
-    background-color: rgba(85, 28, 139, 0.76);
+    background-color: rgba(0, 115, 119, 0.733);
     padding: 3% 0%;
     text-align: center;
 }
