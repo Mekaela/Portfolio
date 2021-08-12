@@ -4,9 +4,10 @@
 
 body {
     margin: 0;
-}
+} 
 
 header {
+    min-height: 500px;;
     height: 97vh;
     padding-top: 3%;
     background-color: rgb(2, 135, 139);
@@ -19,34 +20,25 @@ header {
 }
 
 .header-h1 {
-    font-size: 700%;
+    font-size: 7em;
     margin: 0px auto 0px auto;
 }
 
-
-.huge-h1 {
-    font-size: 700%;
-}
-
-.mySkills-h1 {
-    font-size: 700%;
-    
-}
-
-.color-me {
+.color-me, .header-color {
     color: rgb(199, 199, 199);
 }
 
-.intro {
+.header-intro {
     width: 300px;
     padding-left: 35%;
 }
-.intro li {
+
+.header-intro li {
     list-style-type: none;
     line-height: 80%;
 }
 
-.intro ul {
+.header-intro ul {
     padding-left: 50%;
     margin-top: 0px;
 }
@@ -54,16 +46,20 @@ header {
 #mySkills {
     padding: 1% 0% 0% 0%;
     background-color:rgba(128, 128, 128, 0.295);
+    min-height: 500px;;
     height: 100vh;
 }
 
-#mySkills h1 {
+.mySkills-h1 {
     text-align: center;
+    font-size: 7em;
 }
 
-.icons {
+.mySkills-icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
 }
 
 .skill-html, .skill-js, .skill-css {
@@ -78,14 +74,14 @@ svg {
 }
 
 #projects {
-    background-color: rgba(0, 115, 119, 0.733);
+    background-color: rgb(2, 135, 139);
     height: 100%;
     padding: 1% 5%;
 }
 
-#projects h1 {
+.projects-h1 {
     text-align: right;
-    padding-bottom: 14%;
+    font-size: 7em;
 }
 
 .project-text {
@@ -107,9 +103,14 @@ img {
 #contact {
     padding: 1% 10%;
     background-color: rgba(128, 128, 128, 0.295);
-    height: 100vh;
     display: flex;
     align-items: center;
+    min-height: 500px;;
+    height: 100vh;
+}
+
+.contact-h1 {
+    font-size: 7em;
 }
 
 .color-chat {
